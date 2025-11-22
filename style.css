@@ -1,0 +1,104 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face{
+  font-family: "logo";
+  src: url(fontes/logo.ttf);
+}
+@font-face{
+  font-family: "roboto";
+  src: url(fontes/rotobo.ttf);
+}
+p{
+  text-align: justify;
+  text-indent: 20px;
+}
+h1{
+  text-shadow: 0px 0px 7px grey;
+}
+.logo{
+  position: absolute;
+  padding: 10px;
+  font-family: logo;
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}
+body{
+  background-color: #E0F7FF;
+  font-family: "roboto";
+}
+.menu{
+  display: block;
+  background-color: #BE56FF;
+  height: 60px;
+  padding-right: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 7px 10px grey;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: #A956AA;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+#active{
+  box-shadow: 0px 0px 5px white;
+}
+.menu td{
+  padding: 7px;
+  padding-top: 10px;
+}
+.submenu{
+  display: none;
+}
+.subtrigger:hover{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.subtrigger:hover > .submenu{
+  display: block;
+  padding: 0px;
+  width: 150px;
+  position: absolute;
+  list-style: none;
+}
+.menu a:hover{
+  transform: scale(1.1);
+}
+#mid{
+  border-radius: 0px;
+}
+#top{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#bot{
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.sec{
+  background-color: #BE56FF;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  margin: 30px;
+  padding: 20px;
+}
+.sec a{
+  text-decoration: none;
+  color: skyblue;
+}
+.rod{
+  background-color: #BE56FF;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 0px -5px 10px gray;
+  padding: 10px;
+}
